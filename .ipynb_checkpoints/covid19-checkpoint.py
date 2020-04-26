@@ -29,7 +29,7 @@ server = app.server
 
 #Overwrite your CSS setting by including style locally
 colors = {
-    'background': '#999999',
+    'background': '#2D2D2D',
     'text': '#E1E2E5',
     'figure_text': '#ffffff',
     'confirmed_text':'#3CA4FF',
