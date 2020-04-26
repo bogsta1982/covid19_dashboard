@@ -613,7 +613,7 @@ app.layout = html.Div(
         # Header display
         html.Div(
             [
-                html.H1(children='Covid-19 (Coronavirus) Interactive Outbreak Tracker',
+                html.H1(children='Covid-19 Tracker',
                         style={
                             'textAlign': 'left',
                             'color': colors['text'],
@@ -663,7 +663,7 @@ app.layout = html.Div(
                     style={"display": "none"},
                 ),
 
-                html.Div([html.Span('Dashboard: Covid-19 outbreak. (Updated once a day, based on consolidated last day total) Last Updated: ',
+                html.Div([html.Span('Dashboard: Covid-19 outbreak: ',
                              style={'color': colors['text'],
                              }),
                         html.Span(datatime_convert(df_confirmed.columns[-1],1) + '  00:01 (UTC).',
